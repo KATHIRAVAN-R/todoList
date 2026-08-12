@@ -141,6 +141,11 @@ button[id="btnAdd"] {
   font-size: small;
   text-shadow: 2px 2px 5px;
 }
+button[id="btnAdd"]{
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+}
 .edit {
   padding: 5px;
   background-color: orange;
@@ -163,6 +168,6 @@ span {
   border-radius: 5px;
   text-shadow: 5px 5px 5px black;
   font-size: 10px;
-  /* button */
+
 }
 }
