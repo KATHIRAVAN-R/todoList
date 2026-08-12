@@ -37,7 +37,7 @@ input[type="text"] {
   flex: 1;
   margin: auto 10px;
   text-align: center;
-    font-weight: 200;
+  font-weight: 200;
 }
 
 input[type="text"],
@@ -100,4 +100,68 @@ span {
 .edit:hover,
 .delete:hover {
   box-shadow: 2px 2px 5px black;
+}
+
+@media screen and (max-width: 769px) {
+  main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  font-size: small;
+}
+.container {
+  width: 90%;
+  background-color: antiquewhite;
+  padding: 10px;
+  box-shadow: 5px 5px 5px;
+  border-radius: 1em;
+}
+.form-container {
+  padding: 0.5em;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+input[type="text"] {
+  flex: 1;
+  margin: auto 10px;
+  text-align: center;
+  font-weight: 200;
+}
+input[type="text"],
+button[id="btnAdd"] {
+  color: #031634;
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-size: small;
+  text-shadow: 2px 2px 5px;
+}
+.edit {
+  padding: 5px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 10px;
+}
+span {
+  flex: 1;
+  font-weight: 900;
+  font-size: small;
+}
+.delete {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 10px;
+}
 }
